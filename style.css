@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+
+}
+.container{
+    background-color: rgb(211, 189, 193);
+
+}
+.first{
+   max-width: 100vw;
+    height: 100vh;
+background-image:url('pexels-daria-obymaha-1683989.jpg');
+/* background-size: cover; */
+background-repeat: no-repeat;
+color: white;
+ background-size: 100% 100%;
+ text-align: center;
+ align-content: center;
+ justify-content: center;
+ background-color: pink;
+}
+
+#love{
+    font-size: 200%;
+    padding-top: 160px;
+}
+#life{
+    font-size: 35px;
+  
+}
+#date{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px;
+}
+.navigation nav{
+    position: fixed;
+bottom: 0;
+padding: 5px;
+background-color: #cae8ca;
+    background-color: white;
+   width: 100vw;
+    /* padding: 30px; */
+    z-index: 1;
+}
+.navigation nav ul li{
+    /* display:inline-block; */
+    float: left;
+}
+.navigation li{
+    list-style: none;
+    /* margin:9%; */
+    padding: 10px 8vw;
+    color: black;
+}
+a{
+    text-decoration: none;
+    
+}
+li a{
+    padding: 12px  20px;
+    color: black;
+
+}
+li a:hover{
+    background-color: rgba(8, 8, 8, 0.386);
+    padding: 12px  20px;
+    
+}
+li a:active{
+    color: pink;
+    
+}
+/* @media screen and (max-width:850px) and (min-width:550px) {
+    .navigation{
+        padding: 10px 15%;
+        width: 100%;
+    }
+    
+} */
+@media screen and (max-width:550px) {
+    .navigation{
+        display:none;
+    }
+    
+}
+.Prince{
+    background-image: url("DSCF4001-scaled.jpg");
+    max-width:100vw;
+    height: 100vh;
+background-size: contain;
+background-repeat: no-repeat;
+color: white;
+ background-size: 70% 100%;
+background-position: center;
+}
+@media screen and (max-width:550px) {
+    .Prince{
+        background-size: 100vw 100vh;
+    }
+}
+.a{
+    margin: 100px;
+    text-align: center;
+    background-color: rgb(211, 189, 193);
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.699);
+}
+.about{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align: center;
+}
+.about p{
+    padding: 20px 83px;
+
+    text-align: justify;
+
+}
+@media screen and (max-width:550px) {
+    .about p{
+        margin: 0;
+        padding:20px 40px;
+        text-align: justify;
+
+    }
+   
+}
+.about button{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    margin:50px;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
+.card{
+    background-image: url("pexels-tara-winstead-6479597.jpg");
+    background-size: cover;
+    max-width: 100vw;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+
+}
+@media screen and (max-width:550px) {
+    .card{
+        background-size: 100vw;
+        /* background-repeat: n; */
+    }
+}
+.card #b{
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 200px;
+}
+.card #c{
+    font-size: 35px;
+}
+ #d{
+    text-align: center;
+    margin: 30px;
+    font-size: 300%;
+    color: rgba(0, 0, 0, 0.806);
+    padding: 60px 0;
+}
+@media screen and (max-width:550px) {
+    #d{
+       margin: 5px;
+       padding-bottom:10px;
+        /* background-repeat: n; */
+    }
+}
+#e{
+    background-image: url("pexels-pixabay-258154.jpg");
+    max-width: 100vw;
+    height: 90vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media screen and (max-width:550px) {
+    #e{
+        background-size: 100vh;
+        /* background-repeat: n; */
+        margin-top: 5px;
+    }
+}
+#f{
+    /* margin: 40px; */
+    padding: 50px;
+    width: 100;
+    text-align: center;
+    /* float: left; */
+    /* justify-content: center; */
+    /* display: inline-block; */
+    padding: 60px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(223, 176, 184, 0.674);
+    margin: 30px 0;
+    margin-bottom: 0;
+}
+#g{
+    font-size: 50px;
+    margin-bottom:30px ;
+    margin-top: 30px;
+}
+#h{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30px ;
+}
+#f button{
+    font-size: x-large;
+    margin-top: 30px;
+    padding: 20px 30px;
+    background-color: rgb(200, 61, 23);
+    color: white;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+#f button:hover{
+    background-color: rgba(128, 128, 128, 0.733);
+    color: black;
+}
+#btn{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* padding: 50px 100px; */
+    padding: 5% 15%;
+    /* padding-top: 10px; */
+    text-align: center;
+}
+@media screen and (max-width:550px) {
+    #btn1{
+        padding-right: 100px;
+    }
+    #btn{
+        padding-top: 5px;
+    }
+}
+#btn div{
+    font-size: 30px;
+    /* text-align: center; */
+}
+#btn div p{
+    font-size: 20px;
+    padding: 20px 0;
+    /* text-align: center; */
+}
+ .invite .about button{
+    background-color: black;
+    /* color: white; */
+}
+.invite .about button a{
+    color: rgb(255, 255, 255);
+}
+ .invite .about button:hover{
+    background-color: rgba(255, 255, 255, 0.683);
+    color: rgba(0, 0, 0, 0.904);
+}
+.invite .about button a:hover{
+    /* background-color: rgba(255, 255, 255, 0.683); */
+    color: rgba(0, 0, 0, 0.904);
+}
+.sta{
+    position: relative;
+}
+.star{
+    background-position: center;
+   margin: 0 auto;
+    display: none;
+    padding:32px;
+    max-width: 1000px;
+    
+    background-color: rgb(207, 197, 197);
+     padding-top: 20px;
+     position: relative;
+     /* position: sticky; */
+     bottom: 100px;
+}
+.star .starts{
+font-size: 60px; 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-bottom: 10px;
+}
+.star .start{
+font-size: 20px; 
+padding-bottom: 10px;
+}
+.fo{
+font-size: 20px;
+ margin-bottom: 5px;
+  margin-top: 10px;
+}
+.startst{
+margin: 5px;
+}
+.startst .startsta{
+display: inline;
+}
+.foot{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+.foot p a{
+    color: white;
+    text-decoration: underline;
+}
+.foot p a:hover{
+    color: green;
+}
